@@ -7,7 +7,7 @@ import "./Home.css";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mt-8">
       <Swiper
         modules={[Navigation, Autoplay, Pagination]}
         navigation={{
@@ -19,6 +19,7 @@ const Banner = () => {
         loop={true}
         autoplay={{ delay: 5000 }}
         className="mySwiper"
+        style={{borderRadius:'8px'}}
       >
         <SwiperSlide>
           <div className="banner-slide">

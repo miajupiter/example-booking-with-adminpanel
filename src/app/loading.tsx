@@ -1,8 +1,8 @@
-import Loader from "@/components/Shared/Loader";
-import { Spin } from "antd";
+import Loader from '@/components/Shared/Loader'
+import { Spin } from 'antd'
 
 const loading = () => {
-  return <Loader />;
-};
+  return <Loader />
+}
 
-export default loading;
+export default loading

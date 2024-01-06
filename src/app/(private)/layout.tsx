@@ -1,5 +1,5 @@
-import Footer from "@/components/Shared/Footer";
-import Navbar from "@/components/Shared/Navbar";
+import Footer from "@/components/Shared/Footer"
+import Navbar from "@/components/Shared/Navbar"
 
 const layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -8,7 +8,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       {children}
       <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default layout;
+export default layout

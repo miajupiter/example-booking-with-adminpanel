@@ -1,11 +1,11 @@
-import jwt, { Secret } from "jsonwebtoken";
+import jwt, { Secret } from "jsonwebtoken"
 
 const verifyToken = (token: string, secret: Secret) => {
   try {
-    return jwt.verify(token, secret);
+    return jwt.verify(token, secret)
   } catch (error) {
-    return null;
+    return null
   }
-};
+}
 
-export const jwtHelpers = { verifyToken };
+export const jwtHelpers = { verifyToken }

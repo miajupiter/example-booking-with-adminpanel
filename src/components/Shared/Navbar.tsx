@@ -38,10 +38,11 @@ const Navbar = () => {
 
   const routes = [
     { name: "Home", path: "/" },
-    { name: "Services", path: "/services" },
-    { name: "FAQ", path: "/faq" },
+    { name: "Tours", path: "/tours" },
+    // { name: "Services", path: "/services" },
+    // { name: "FAQ", path: "/faq" },
     { name: "Blog", path: "/blog" },
-    { name: "About", path: "/about-us" },
+    // { name: "About", path: "/about-us" },
     { name: "Contact", path: "/contact-us" },
   ];
 
